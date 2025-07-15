@@ -30,7 +30,7 @@ if uploaded_file is not None:
 
             try:
                 response = openai.chat.completions.create(
-                    model="gpt-4",
+                    model="gpt-3.5-turbo",
                     messages=[
                         {"role": "system", "content": "You are a skilled data analyst."},
                         {"role": "user", "content": prompt}
