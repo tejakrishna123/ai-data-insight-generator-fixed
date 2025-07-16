@@ -11,7 +11,7 @@ st.title("📊 AI-Powered Data Insight Generator")
 st.markdown("Upload your dataset and let AI help you discover insights.")
 
 # Input OpenAI API key securely
-openai_api_key = st.text_input("Enter your OpenAI API Key:", type="password")
+
 
 uploaded_file = st.file_uploader("Upload your CSV file", type=["csv"])
 if uploaded_file is not None:
